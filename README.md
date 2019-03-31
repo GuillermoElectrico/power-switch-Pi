@@ -25,7 +25,7 @@ Connect resistor between 3.3V (pin 1) and pin select in script. The button is co
     $ git clone https://github.com/GuillermoElectrico/power-switch-Pi
 	$ sudo apt-get install python3-pip
 	$ sudo pip3 install --upgrade RPi.GPIO
-	& cd power-switch-Pi/
+	$ cd power-switch-Pi/
 	$ sudo chmod+x power-switch-Pi.py
     ```
 * Edit script and modify InputPin as unused pin in the board
