@@ -5,8 +5,8 @@ import subprocess
 GPIO.setmode(GPIO.BOARD)
 
 #Select unused GPIO header pin to be used for shutdown
-InputPin = 32 #GPIO12 o 31 #GPIO6
-LedOnPin = 40 #GPIO21 o 37 #GPIO26
+InputPin = 32 #GPIO12 
+LedOnPin = 40 #GPIO21 
 
 # Set selected pin to input, need pullup resistor external in 3.3V and pin select.
 GPIO.setup(InputPin, GPIO.IN)

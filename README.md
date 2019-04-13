@@ -12,7 +12,7 @@ Simple script python3 to shutdown Raspberry pi to external button
 
 #### Software
 
-* raspbian
+* raspbian or dietpi
 * Python 3 and PIP
 
 ### Prerequisite
@@ -26,7 +26,7 @@ Connect resistor between 3.3V (pin 1) and pin select in script. The button is co
 	$ sudo apt-get install python3-pip
 	$ sudo pip3 install --upgrade RPi.GPIO
 	$ cd power-switch-Pi/
-	$ sudo chmod+x power-switch-Pi.py
+	$ sudo chmod +x power-switch-Pi.py
     ```
 * Edit script and modify InputPin as unused pin in the board
 
